@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Work 1", "Work 1\Work 1.ssmssqlproj", "{D0A93000-C1B4-4E4C-AE10-815C8D1408C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work 2", "Work 2", "{46A0E2E3-1DFC-4DC7-B1CC-9972BAF1C7B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work 1", "Work 1", "{5B3E1CA3-37FA-41C5-844C-9DD9AABEF764}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work 3", "Work 3", "{B72C418A-A87F-454A-849D-F9A58AC64132}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work 4", "Work 4", "{8EFCC766-8139-4073-8A18-11034E275BE8}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Work 2", "Work 2\Work 2.ssmssqlproj", "{62895B7D-8657-4D28-BB53-CA7C7CC9922C}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Work 3", "Work 3\Work 3.ssmssqlproj", "{764764EE-DCDC-4227-B6F8-C5682587E511}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Work 4", "Work 4\Work 4.ssmssqlproj", "{2F3F37DD-7066-451B-82BE-634ACEC341FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0A93000-C1B4-4E4C-AE10-815C8D1408C5}.Default|Default.ActiveCfg = Default
+		{62895B7D-8657-4D28-BB53-CA7C7CC9922C}.Default|Default.ActiveCfg = Default
+		{764764EE-DCDC-4227-B6F8-C5682587E511}.Default|Default.ActiveCfg = Default
+		{2F3F37DD-7066-451B-82BE-634ACEC341FB}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0A93000-C1B4-4E4C-AE10-815C8D1408C5} = {5B3E1CA3-37FA-41C5-844C-9DD9AABEF764}
+		{62895B7D-8657-4D28-BB53-CA7C7CC9922C} = {46A0E2E3-1DFC-4DC7-B1CC-9972BAF1C7B9}
+		{764764EE-DCDC-4227-B6F8-C5682587E511} = {B72C418A-A87F-454A-849D-F9A58AC64132}
+		{2F3F37DD-7066-451B-82BE-634ACEC341FB} = {8EFCC766-8139-4073-8A18-11034E275BE8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDD4C1D1-D0C6-478E-A4DE-8A8DF15D846A}
+	EndGlobalSection
+EndGlobal
