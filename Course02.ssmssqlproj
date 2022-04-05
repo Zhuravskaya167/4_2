@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Course02">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="LAPTOP-1L18H8CB\SQLEXPRESS:LAPTOP-1L18H8CB\zhura">
+          <Created>2022-03-22T14:02:49.5700838+03:00</Created>
+          <Type>SQL</Type>
+          <Server>LAPTOP-1L18H8CB\SQLEXPRESS</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="0_Create DB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-1L18H8CB\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-1L18H8CB\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>0_Create DB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="1_ARTISTS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-1L18H8CB\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-1L18H8CB\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1_ARTISTS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2_PICTURES.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-1L18H8CB\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-1L18H8CB\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2_PICTURES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3_EXPOSITIONS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-1L18H8CB\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-1L18H8CB\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>3_EXPOSITIONS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="4_DIRECTION.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-1L18H8CB\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-1L18H8CB\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>4_DIRECTION.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5_PICTURES_EXPOSITIONS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-1L18H8CB\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-1L18H8CB\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>5_PICTURES_EXPOSITIONS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Table 1_ARTISTS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-1L18H8CB\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-1L18H8CB\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Table 1_ARTISTS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Table 2_PICTURES.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-1L18H8CB\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-1L18H8CB\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Table 2_PICTURES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Table 3_EXPOSITIONS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-1L18H8CB\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-1L18H8CB\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Table 3_EXPOSITIONS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Table 4_DIRECTION.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-1L18H8CB\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-1L18H8CB\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Table 4_DIRECTION.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Table 5_PICTURES_EXPOSITIONS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-1L18H8CB\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-1L18H8CB\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Table 5_PICTURES_EXPOSITIONS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_Security.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-1L18H8CB\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-1L18H8CB\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Z_Security.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ZZ_Requests.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-1L18H8CB\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-1L18H8CB\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ZZ_Requests.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ZZZ_View.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-1L18H8CB\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-1L18H8CB\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ZZZ_View.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ZZZZ_Functions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-1L18H8CB\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-1L18H8CB\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ZZZZ_Functions.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

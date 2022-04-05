@@ -1,0 +1,7 @@
+--Создание таблицы Направление
+
+CREATE TABLE DIRECTION
+(
+ID_Direction INT PRIMARY KEY NONCLUSTERED NOT NULL,
+[Name] VARCHAR (30) NOT NULL UNIQUE
+);
