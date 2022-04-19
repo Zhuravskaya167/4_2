@@ -1,0 +1,24 @@
+ЛР 2
+1.Найти максимальную дату рождения из таблицы HumanResources.Employee.
+2.Найти количество нулевых значений цвета (Color) из таблицы Production.Product.
+3.Показать суммарную и среднюю стоимость товаров каждого цвета из таблицы Production.Product (из выборки исключить пустые поля).
+4.Вывести профессии из таблицы HumanResources.Employee, где суммарное количество человек, принятых позже 2010 года, больше 1
+5.Вывести EmployeeID, ShipDate и максимум по SubTotal для всевозможных EmployeeID с одинаковой ShipDate, предусмотреть вывод самого максимального StandardPrice за определенный ShipDate из таблицы Purchasing.PurchaseOrderHeader. (Использовать CUBE) 
+
+ЛР 3
+1.Показать скидку на цену за штуку (UnitPriceDiscount) и поля Name, ProductNumber из таблиц Production.Product, Sales.SalesOrderDetail.
+2.Показать список людей (поля FirstName, LastName), в котором указан «узел» человека (OrganizationNode) в организации или нет, из таблиц Person.Person, HumanResources.Employee, используя LEFT OUTER JOIN.
+3.Показать список товаров (поле Name), в котором указан, есть ли у товара дата окончания отслеживания цены (EndDate) или нет, из таблицы Production.ProductListPriceHistory, Production.Product, используя RIGHT OUTER JOIN.
+4.Показать список продуктов (ProductID), которые имеют несколько различных количеств заказов (OrderQty), из таблицы Purchasing.PurchaseOrderDetail, используя SELF JOIN.
+5.Показать список количеств заказов (OrderQty), к которым относятся несколько продуктов (ProductID), из таблицы Purchasing.PurchaseOrderDetail, используя SELF JOIN.
+6.Показать список моделей продуктов (ProductModelID), которые имеют несколько несколько цен реализации (ListPrice) больше 100, из таблицы Production.Product, используя SELF JOIN.
+7.Показать комбинированный список таблиц Person.Person, Person.BusinessEntityAddress по полям BusinessEntityID, rowguid, ModifiedDate, используя UNION.
+8.Показать список ProductID, которые содержатся в таблице Production.Product, но не содержатся в таблице Production. ProductInventory.
+
+ЛР 4
+
+1.	Показать наименование товаров с самой большой стандартной ценой (Таблица Production.Product).
+2.	Показать количество сотрудников и должность, на которой работает минимальное количество сотрудников (Представление [HumanResources].[vEmployeeDepartment]).
+3.	Показать товары, для которых существует только один стиль в одном размере (стиль и размер определен) (Таблица Production.Product). Показать поля [Name], Style и Size.
+4.	Показать товары, цена которых равна минимальной (больше нуля) цене товара той же линейки продуктов (линейка продуктов определена) (Таблица Production.Product). Показать поля [Name], ListPrice и ProductLine.
+5.	Показать товары, цена которых меньше средней цены в любой линейке продуктов (линейка продуктов определена) (Таблица Production.Product). Показать поля [Name], ListPrice и ProductLine.
